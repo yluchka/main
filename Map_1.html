@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a9de6e59c219403da723de668b3bd5be {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a9de6e59c219403da723de668b3bd5be" ></div>
+        
+</body>
+<script>    
+    
+            var map_a9de6e59c219403da723de668b3bd5be = L.map(
+                "map_a9de6e59c219403da723de668b3bd5be",
+                {
+                    center: [48.8350125, 24.0197128],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c1ce0f42f87e43e9ae244d41410b8506 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a9de6e59c219403da723de668b3bd5be);
+        
+    
+            var marker_4873181e03e444d09408b08a9ac4127b = L.marker(
+                [49.822994, 24.035093],
+                {}
+            ).addTo(map_a9de6e59c219403da723de668b3bd5be);
+        
+    
+        var popup_cc7ba839dcdb40ffa35284b18c7ca66c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f4b9ff7e9c04382adce6b5b285a8989 = $(`<div id="html_5f4b9ff7e9c04382adce6b5b285a8989" style="width: 100.0%; height: 100.0%;">УКУ Свєнціцького</div>`)[0];
+            popup_cc7ba839dcdb40ffa35284b18c7ca66c.setContent(html_5f4b9ff7e9c04382adce6b5b285a8989);
+        
+
+        marker_4873181e03e444d09408b08a9ac4127b.bindPopup(popup_cc7ba839dcdb40ffa35284b18c7ca66c)
+        ;
+
+        
+    
+    
+            marker_4873181e03e444d09408b08a9ac4127b.bindTooltip(
+                `<div>
+                     Класни на мене!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a139571e3d264d3b9cbe6717a9ff5ecb = L.marker(
+                [49.817443, 24.0197128],
+                {}
+            ).addTo(map_a9de6e59c219403da723de668b3bd5be);
+        
+    
+        var popup_91e61e7ec12c493e87472f48a98d1a79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0f590bf1f8b46f1b800f66e06fe1ddf = $(`<div id="html_b0f590bf1f8b46f1b800f66e06fe1ddf" style="width: 100.0%; height: 100.0%;">УКУ Свєнціцького</div>`)[0];
+            popup_91e61e7ec12c493e87472f48a98d1a79.setContent(html_b0f590bf1f8b46f1b800f66e06fe1ddf);
+        
+
+        marker_a139571e3d264d3b9cbe6717a9ff5ecb.bindPopup(popup_91e61e7ec12c493e87472f48a98d1a79)
+        ;
+
+        
+    
+    
+            marker_a139571e3d264d3b9cbe6717a9ff5ecb.bindTooltip(
+                `<div>
+                     Класни на мене!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
